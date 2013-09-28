@@ -1,0 +1,67 @@
+MPLINK 4.37, Linker
+Linker Map File - Created Tue Jan 25 23:45:48 2011
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                    START       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000002    program   0x000004
+                     MAIN       code   0x000004    program   0x000072
+                    .code       code   0x00003d    program   0x000018
+.config_2007_PIC12F615_TEMPLATE.O       code   0x002007    program   0x000002
+                   .udata      udata   0x000040       data   0x000009
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000048      
+                            0x002007    0x002007      
+            74 out of 1029 program addresses used, program memory utilization is 7%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000004    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                  adc_tst   0x000016    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+               delayX10ms   0x000001    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+             delayX10ms_R   0x00003d    program     extern C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                     disp   0x000020    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+              disp_blanks   0x000031    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+         disp_blanks_loop   0x000034    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                     dly1   0x000042    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                     dly2   0x00003f    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                     loop   0x00000f    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                      dc1   0x000043       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                      dc2   0x000044       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                      dc3   0x000046       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                  loop_ct   0x000042       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                   tempor   0x000041       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                   tmp_rd   0x000040       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               delayX10ms   0x000001    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                    START   0x000004    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                     loop   0x00000f    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                  adc_tst   0x000016    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                     disp   0x000020    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+              disp_blanks   0x000031    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+         disp_blanks_loop   0x000034    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+             delayX10ms_R   0x00003d    program     extern C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                     dly2   0x00003f    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                     dly1   0x000042    program     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                   tmp_rd   0x000040       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                   tempor   0x000041       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                  loop_ct   0x000042       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\PIC12F615_template.asm
+                      dc1   0x000043       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                      dc2   0x000044       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+                      dc3   0x000046       data     static C:\Users\Ben\Desktop\Folders\Projects\Personal\Mug Temperature Sensor\Mug_temp\delayX10ms.asm
+
+

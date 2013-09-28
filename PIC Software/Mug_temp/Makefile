@@ -1,0 +1,22 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: mug_temp.mcp
+# Date: Sun Jan 16 16:56:09 2011
+
+AS = MPASMWIN.exe
+CC = 
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+mug_temp.cof : PIC12F615_template.o delayX10ms.o
+	$(CC) "..\..\..\..\..\..\..\..\Program Files (x86)\Microchip\MPASM Suite\LKR\12f615_g.lkr" "PIC12F615_template.o" "delayX10ms.o" /z__MPLAB_BUILD=1 /o"mug_temp.cof" /M"mug_temp.map" /W
+
+PIC12F615_template.o : PIC12F615_template.asm ../../../../../../../../Program\ Files\ (x86)/Microchip/MPASM\ Suite/P12F615.INC
+	$(AS) /q /p12F615 "PIC12F615_template.asm" /l"PIC12F615_template.lst" /e"PIC12F615_template.err" /o"PIC12F615_template.o"
+
+delayX10ms.o : delayX10ms.asm ../../../../../../../../Program\ Files\ (x86)/Microchip/MPASM\ Suite/P12F615.INC
+	$(AS) /q /p12F615 "delayX10ms.asm" /l"delayX10ms.lst" /e"delayX10ms.err" /o"delayX10ms.o"
+
+clean : 
+	$(CC) "PIC12F615_template.o" "PIC12F615_template.err" "PIC12F615_template.lst" "delayX10ms.o" "delayX10ms.err" "delayX10ms.lst" "mug_temp.cof" "mug_temp.hex"
+
